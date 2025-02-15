@@ -7,7 +7,7 @@ dotenv.config();
 
 const app = express();
 
-app.get("/products", (req, res) => {
+app.post("/products", (req, res) => {
     // res.send("server is ready");
 });
 
